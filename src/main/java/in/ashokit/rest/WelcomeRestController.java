@@ -15,7 +15,7 @@ public class WelcomeRestController {
 		logger.info("***** WelcomeRestController :: Constructor *****");
 	}
 
-	@GetMapping
+	@GetMapping("/")
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
 		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
