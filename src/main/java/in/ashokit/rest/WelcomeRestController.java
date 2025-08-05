@@ -17,7 +17,7 @@ public class WelcomeRestController {
     @GetMapping("/")   // Correct root mapping
     public String welcomeMsg() {
         logger.info("***** welcomeMsg() execution start *****");
-        String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
+        String msg = "Hi this is Akhil Chinnamsetti";
         logger.info("***** welcomeMsg() execution end *****");
         return msg;
     }
